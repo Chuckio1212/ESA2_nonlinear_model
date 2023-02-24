@@ -192,3 +192,4 @@ cons=([con1,con2,con3,con4,con5,con6,con7])
 solution=minimize(objective,x0,method='trust-constr',bounds=bnds,constraints=cons)
 x=solution.x
 print(x)
+print(objective(x))
