@@ -60,7 +60,8 @@ def gg(x):
 def t7(x):
     return t6(x)-37660/(1.17*gg(x))
 
-#I don't know where did 27384 come from, didn't specifiy it in the slides
+#I don't know where did 27384 come from, didn't specifiy it in the slides, 
+#I think it is a enthalpy difference between hot in steam and saturated point(pinch point)
 def t7p(x):
     return t6(x)-27384/(1.17*gg(x))
 
